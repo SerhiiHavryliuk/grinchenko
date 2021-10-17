@@ -1,0 +1,168 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+
+/* // Diana  */
+
+.diana-title{
+  font-size: 3.5rem;
+}
+
+@media only screen and (max-width : 992px) {
+  .diana-title{
+    font-size: 2.2rem;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  .diana-title{
+    font-size: 1.5rem;
+  }
+}
+
+.diana-title-container{
+  display: flex;
+}
+
+@media only screen and (max-width : 992px) {
+  .diana-title-container{
+    display: block;
+  }
+  .btn-large{
+    display: none;
+  }
+}
+
+
+.diana-logo{
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width : 992px) {
+  .diana-logo{
+    margin-right: 0;
+  }
+}
+
+.diana-logo img{
+  display: block;
+  max-width: 300px;
+  width: 100%;
+}
+
+@media only screen and (max-width : 992px) {
+  .diana-logo{
+    display: flex;
+    justify-content: center;
+  }
+  .diana-logo img{
+    display: block;
+    max-width: 150px;
+    width: 100%;
+  }
+}
+.diana-title.teal-text.text-lighten-2{
+  width: 100%;
+  color: white!important;
+}
+
+.diana-index-banner {
+  /* background-color: #009688 !important; */
+}
+
+.diana-contacts-wrap{
+  display: flex;
+  justify-content: space-between;
+}
+@media only screen and (max-width : 992px) {
+  .diana-contacts-wrap{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+iframe{
+  width: 50%;
+}
+@media only screen and (max-width : 992px) {
+  iframe{
+    width: 100%;
+  }
+}
+
+.diana-contacts-text{
+  width: 50%;
+  margin-right: 30px;
+}
+@media only screen and (max-width : 992px) {
+  .diana-contacts-text{
+    width: 100%;
+    margin-right: 0px;
+  }
+}
+
+.diana-contacts-wrap a, .diana-contacts-wrap p{
+  color: #444!important;
+  font-weight: bold;
+}
+
+.diana-link:hover{
+  text-decoration: underline;
+}
